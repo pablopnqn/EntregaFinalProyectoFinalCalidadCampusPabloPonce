@@ -1,0 +1,56 @@
+.titularppl{
+    font-size: map-get($tamano-tipografia, tituloppl);
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    .titularppl{
+        font-size: 50px;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .titularppl{
+        font-size: 30px;
+    
+    }
+    .subtitulo2{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .titularppl{
+        font-size: 20px;
+       
+            
+    }
+    .subtitulo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .titularppl{
+        font-size: 16px;   
+    }
+   
+}
+
+
+
+    
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 150px;
+}
+
+
+

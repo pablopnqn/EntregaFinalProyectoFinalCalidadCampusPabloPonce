@@ -1,0 +1,15 @@
+{
+  "name": "proyectofinalcalidadcampusponce---prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css css/custom.css --content index.html academia.html consultoria.html contacto.html pablo.html ubicacion.html -o css/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

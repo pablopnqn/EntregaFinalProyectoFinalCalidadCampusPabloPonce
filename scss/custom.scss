@@ -1,0 +1,12 @@
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$primary: #394fc9;
+$success: rgb(182, 182, 184);
+
+@import './base/_variables.scss';
+@import './components/_header.scss';
+@import './components/_mainSubpaginas.scss';
+@import './components/_footer.scss';
+@import './components/_index.scss';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
